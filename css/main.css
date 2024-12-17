@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 100vw;
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../image/000000.jpg);
+    opacity: 80%;
+}
+
+
+.mainDiv{
+
+    width: 485px;
+    height: 220px;
+    background: rgb(67, 194, 181);
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 7px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.result{
+ width: 20%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 10px;
+ padding-right: 15px;
+ border: none ;
+ background: #ebe9e9b7;
+ margin-top: 20px;
+ text-align: center;
+ color: #08007e;
+ font-weight: 700;
+ font-size: 23px;
+ background: white;
+ border-radius: 8px cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+ box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(190, 190, 190),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+
+
+.searchDiv2{
+
+    width: 340px;
+    height: 50px;
+    border: none;
+    padding-left: 100px;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    background: #000;
+   
+}
+
+.searchDiv{
+
+    width: 400px;
+    height: 50px;
+    border: none;
+    margin-top: 27px;
+    background:black;
+}
+
+.button1{
+
+    width: 51px;
+    height: 40px;
+    outline: none;
+    border: 4px solid #ffffff;
+    background: rgb(0, 255, 234);
+    color: #000;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 4px;
+}
+
+.searchDiv .button1:active{
+
+    transform: scale(1.1);
+}
+
+h1{
+    width: 100%;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.result:hover {
+    /* border: 10px splid #008bf8; */
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
